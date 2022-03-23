@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #11134b;
+    color:#ccf5f5;
+   display: flex;
+    padding: 30px;
+    justify-content: center;
+   
+    
+  }
+  
+  button {
+    font-size: 100%;
+    background: #ffffff;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 12px;
+    padding: 20px;
+  
+  
+  }
+  
+  /* Subheading */
+  h2 {
+    color: #ccf5f5;
+    text-align: center;
+    padding: 30px;
+  }
+  
+  #gameArea > button {
+    width: 200px;
+    height: 200px;
+    margin: 2px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  #button1 {
+    background-color: lightgreen;
+  }
+  #button2 {
+    background-color: lightblue;
+  }
+  #button3 {
+    background-color: pink;
+  }
+  #button4 {
+    background-color: lightyellow;
+  }
+  
+  #button1:active{
+    background-image: url(./icons8-futurama-zapp-brannigan-64.png);
+    background-repeat: repeat;
+    background-position: center;
+    background-color:green;
+   
+  }
+  
+  #button1.lit {
+    background-image: url(./icons8-futurama-zapp-brannigan-64.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color:green;
+   
+  }
+  
+  #button2:active{
+    background-image: url(./icons8-futurama-zapp-brannigan-64.png);
+    background-repeat: repeat;
+    background-position: center;
+    background-color:blue;
+  }
+  
+  #button2.lit {
+    background-image: url(./icons8-futurama-zapp-brannigan-64.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color:blue;
+  }
+  #button3:active
+  {
+    background-image: url(./icons8-futurama-zapp-brannigan-64.png);
+    background-repeat: repeat;
+    background-position: center;
+    background-color:red;
+  }
+  
+  #button3.lit {
+    background-image: url(./icons8-futurama-zapp-brannigan-64.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: red;
+  }
+  #button4:active{
+    background-image: url(./icons8-futurama-zapp-brannigan-64.png);
+    background-repeat: repeat;
+    background-position: center;
+    background-color:yellow;
+  }
+  
+  #button4.lit {
+    background-image: url(./icons8-futurama-zapp-brannigan-64.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: yellow;
+  }
+  
