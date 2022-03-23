@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="content">
+      
+         <div class="instructions">
+            <h2>
+              Light and Sound Memory Game
+            </h2>
+            <p>
+              Welcome to the game! Repeat back the patterns by pressing the button
+            </p>
+
+
+          
+          </div>
+          
+          
+          <div >
+            <button id ="startBtn" onclick = "startGame()">
+            Start
+          </button>
+         
+           <button id = "stopBtn" onclick = "stopGame()" class = "hidden" >
+            Stop
+          </button>
+          </div>
+          
+          
+          
+          <div id = "gameArea">
+            
+            <button id = "button1" onmousedown="startTone(1)" onmouseup="stopTone()" onclick="guess(1)" > </button>
+            <button id = "button2" onmousedown="startTone(2)" onmouseup="stopTone()"onclick="guess(2)"> </button>
+            <button id = "button3" onmousedown="startTone(3)" onmouseup="stopTone()"onclick="guess(3)"> </button>
+            <button id = "button4"onmousedown="startTone(4)" onmouseup="stopTone()"onclick="guess(4)"> </button>
+            
+            
+          </div>
+          
+          
+          
+        
+        
+        </div>
+      </div>
+     
+      <footer class="footer">
+        <div class="links"></div>
+      </footer>
+</body>
+</html>
