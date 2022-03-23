@@ -55,7 +55,7 @@
   }
   
   #button1:active{
-    background-image: url(./icons8-futurama-zapp-brannigan-64.png);
+    background-image: url(./asset/icons8-futurama-zapp-brannigan-64.png);
     background-repeat: repeat;
     background-position: center;
     background-color:green;
@@ -63,7 +63,7 @@
   }
   
   #button1.lit {
-    background-image: url(./icons8-futurama-zapp-brannigan-64.png);
+    background-image:url(./asset/icons8-futurama-zapp-brannigan-64.png);
     background-repeat: no-repeat;
     background-position: center;
     background-color:green;
@@ -71,41 +71,41 @@
   }
   
   #button2:active{
-    background-image: url(./icons8-futurama-zapp-brannigan-64.png);
+    background-image:url(./asset/icons8-futurama-zapp-brannigan-64.png);
     background-repeat: repeat;
     background-position: center;
     background-color:blue;
   }
   
   #button2.lit {
-    background-image: url(./icons8-futurama-zapp-brannigan-64.png);
+    background-image:url(./asset/icons8-futurama-zapp-brannigan-64.png);
     background-repeat: no-repeat;
     background-position: center;
     background-color:blue;
   }
   #button3:active
   {
-    background-image: url(./icons8-futurama-zapp-brannigan-64.png);
+    background-image: url(./asset/icons8-futurama-zapp-brannigan-64.png);
     background-repeat: repeat;
     background-position: center;
     background-color:red;
   }
   
   #button3.lit {
-    background-image: url(./icons8-futurama-zapp-brannigan-64.png);
+    background-image: url(./asset/icons8-futurama-zapp-brannigan-64.png);
     background-repeat: no-repeat;
     background-position: center;
     background-color: red;
   }
   #button4:active{
-    background-image: url(./icons8-futurama-zapp-brannigan-64.png);
+    background-image: url(./asset/icons8-futurama-zapp-brannigan-64.png);
     background-repeat: repeat;
     background-position: center;
     background-color:yellow;
   }
   
   #button4.lit {
-    background-image: url(./icons8-futurama-zapp-brannigan-64.png);
+    background-image:url(./asset/icons8-futurama-zapp-brannigan-64.png);
     background-repeat: no-repeat;
     background-position: center;
     background-color: yellow;
