@@ -6,7 +6,7 @@ var pattern = [];
 function rand(){
 
   for (var pat = 0; pat < 8; pat++){
-    pattern.push(Math.floor(Math.random()*4)+1)
+    pattern.push(Math.floor(Math.random()*5)+1)
   }
 }
 
@@ -42,10 +42,11 @@ function stopGame() {
 
 //Sound Synthesis Functions
 const freqMap = {
-  1: 219.4,
+  1: 214.4,
   2: 329.6,
   3: 392,
   4: 466.2,
+  5: 640.3,
 };
 function playTone(btn, len) {
   o.frequency.value = freqMap[btn];
@@ -98,7 +99,7 @@ function playSingleClue(btn) {
     lightButton(btn);
     playTone(btn, clueHoldTime);
     setTimeout(clearButton, clueHoldTime, btn);
-    clueHoldTime = clueHoldTime-20;
+    clueHoldTime = clueHoldTime-10;
   }
 }
 
@@ -114,7 +115,7 @@ function playClueSequence() {
   for (let i = 0; i <= progress; i++) {
     // for each clue that is revealed so far
   
-    console.log("play single clue: " + pattern[i] + " in " + delay + "ms");
+    // console.log("play single clue: " + pattern[i] + " in " + delay + "ms");
     setTimeout(playSingleClue, delay, pattern[i]); // set a timeout to play that clue
     delay += clueHoldTime;
     delay += cluePauseTime;
