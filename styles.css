@@ -53,6 +53,10 @@
   #button4 {
     background-color: lightyellow;
   }
+
+  #button5 {
+    background-color: lightsalmon;
+  }
   
   #button1:active{
     background-image: url(./asset/icons8-futurama-zapp-brannigan-64.png);
@@ -111,3 +115,18 @@
     background-color: yellow;
   }
   
+
+  #button5:active{
+    background-image: url(./asset/icons8-futurama-zapp-brannigan-64.png);
+    background-repeat: repeat;
+    background-position: center;
+    background-color:salmon;
+   
+  }
+
+  #button5.lit {
+    background-image:url(./asset/icons8-futurama-zapp-brannigan-64.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: salmon;
+  }
