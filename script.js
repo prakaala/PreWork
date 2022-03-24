@@ -3,7 +3,7 @@
 var pattern = [];
 
 
-function rand(){
+function randGenerator(){
 
   for (var pat = 0; pat < 8; pat++){
     pattern.push(Math.floor(Math.random()*5)+1)
@@ -23,7 +23,7 @@ function startGame() {
   progress = 0;
   gamePlaying = true;
   // swap the Start and Stop buttons
-  rand();
+  randGenerator();
   document.getElementById("startBtn").classList.add("hidden");
   document.getElementById("stopBtn").classList.remove("hidden");
  
