@@ -164,7 +164,7 @@ function loseGame() {
 
 function winGame() {
   stopGame();
-  alert("Game Over. You Won. \n Your Score is:" +progress);
+  alert("Game Over. You Won. \n Your Score is:" + (progress+1));
  
 }
 
